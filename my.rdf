@@ -1,0 +1,32 @@
+@prefix : <https://en.wikipedia.org/wiki/> . 
+:Luke_Skywalker
+  :family "Skywalkers" ;
+  :sex "male" ;
+  :actor "Mark Hamill" ;
+  :side "light";
+  :lightsaber_colour "green".  
+:Princess_Leia
+  :family "Skywalkers";
+  :sex "female";
+  :actor "Carrie Fisher";
+  :side "light";
+  :lightsaber_colour "blue" .  
+:Darth_Vader
+  :family "Skywalkers";
+  :sex "male";
+  :actor "David Prowse";
+  :side "dark";
+  :lightsaber_colour "red" .  
+:Anakin_Skywalker
+  :family "Skywalkers";
+  :sex "male";
+  :actor "Jake Lloyd";
+  :actor "Sebastian Shaw";
+  :actor "Hayden Christensen";
+  :lightsaber_colour "blue";
+  :side "light" .  
+:Han_Solo
+  :family "Solo";
+  :sex "male";
+  :actor "Harrison Ford";
+  :side "light" .  
