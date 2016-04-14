@@ -1,0 +1,81 @@
+@prefix : <http://starwars.wikia.com/wiki/> . 
+:Luke_Skywalker
+  :name "Luke Skywalker";
+  :family "Skywalkers" ;
+  :sex "male" ;
+  :actor "Mark Hamill" ;
+  :side "light";
+  :lightsaber_colour "green";
+  :born_on "Polis Massa";
+  :height_in_cm 173;
+  :profession "jedi master" .  
+:Princess_Leia
+  :name "Leia Organa";
+  :family "Skywalkers";
+  :sex "female";
+  :actor "Carrie Fisher";
+  :side "light";
+  :lightsaber_colour "blue";
+  :born_on "Polis Massa";
+  :height_in_cm 150;
+  :profession "general" .  
+:Darth_Vader
+  :name "Darth Vader";
+  :family "Skywalkers";
+  :sex "male";
+  :actor "David Prowse";
+  :side "dark";
+  :lightsaber_colour "red";
+  :heigth_in_cm 203 ;
+  :profession "Sith Apprentice".  
+:Anakin_Skywalker
+  :name "Anakin Skywalker";
+  :family "Skywalkers";
+  :sex "male";
+  :actor "Jake Lloyd";
+  :actor "Sebastian Shaw";
+  :actor "Hayden Christensen";
+  :lightsaber_colour "blue";
+  :side "light" ;
+  :born_on "unknown planet";
+  :height_in_cm 188;
+  :profession "jedi" .  
+:Han_Solo
+  :name "Han Solo";
+  :family "Solo";
+  :sex "male";
+  :actor "Harrison Ford";
+  :side "light" ;
+  :born_on "Corellia";
+  :height_in_cm 180;
+  :profession "vagabond" .
+:Padme_Amidala
+  :name "Padme Amidala";
+  :family "Amidala" ;
+  :sex "female";
+  :actor "Natalie Portman";
+  :side "light";
+  :born_on "Naboo";
+  :height_in_cm 165 ;
+  :profession "senator".
+:Chewbacca
+  :name "Chewie";
+  :family "Wookie" ;
+  :sex "male";
+  :actor "Peter Mayhew";
+  :side "light";
+  :born_on "Kashyyyk";
+  :height_in_cm 228;
+  :profession "warrior" .
+:Yoda
+  :name "Yoda"
+  :family "unknown" ;
+  :sex "male";
+  :actor "Frank Oz";
+  :side "light";
+  :born_on "Dagobah";
+  :lightsaber_colour "green";
+  :height_in_cm 66;
+  :profession: "jedi master".
+
+  

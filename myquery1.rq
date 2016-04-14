@@ -1,0 +1,13 @@
+PREFIX : <http://starwars.wikia.com/wiki/>
+
+SELECT ?CharacterName ?gender ?height ?Homepage
+WHERE
+{   
+  ?Homepage :side "light";
+             :name ?CharacterName ;
+             :sex  ?gender ;
+             :height_in_cm ?height.
+
+  FILTER (?height >= 178 && ?height <= 200).
+}
+

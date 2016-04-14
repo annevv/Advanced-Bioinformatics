@@ -1,0 +1,6 @@
+# Load RDF file
+
+rdf=my1.rdf
+uri=http://localhost:8000/data/http://starwars.wikia.com/wiki/
+curl -X DELETE $uri
+curl -T $rdf -H 'Content-Type: application/x-turtle' $uri
